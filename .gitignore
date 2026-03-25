@@ -1,0 +1,29 @@
+# Binarios e artefatos de compilacao
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# Arquivos temporarios
+*.tmp
+*.temp
+*.log
+temp.txt
+arquivotemp.txt
+
+# Dados gerados em execucao e validacao
+arquivo.txt
+treino.txt
+RESULTADOS_TESTES.txt
+arquivo.pretest.bak
+treino.pretest.bak
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini

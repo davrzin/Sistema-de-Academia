@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C/C++: Depurar Academia.exe",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\Academia.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\Programacao\\MinGW\\bin\\gdb.exe",
+            "preLaunchTask": "C/C++: build arquivo C ativo",
+            "setupCommands": [
+                {
+                    "description": "Habilitar pretty-printing do gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}
